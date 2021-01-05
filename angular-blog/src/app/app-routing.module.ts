@@ -13,7 +13,7 @@ const routes: Routes = [
     ]
   },
   {path: 'admin',
-    loadChildren: () => import('./admin/shared/services/admin.module').then(mod => mod.AdminModule)}
+    loadChildren: () => import('./admin/admin.module').then(mod => mod.AdminModule)}
 ];
 
 @NgModule({
