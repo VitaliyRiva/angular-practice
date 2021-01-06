@@ -5,11 +5,11 @@ import {HomePageComponent} from './home-page/home-page.component';
 import {PostPageComponent} from './post-page/post-page.component';
 
 const routes: Routes = [
-  {path: '', component: MainLayoutComponent, children: [
+  {
+    path: '', component: MainLayoutComponent, children: [
       {path: '', redirectTo: '/', pathMatch: 'full'},
       {path: '', component: HomePageComponent},
-      {path: 'post/:id', component: PostPageComponent
-      },
+      {path: 'post/:id', component: PostPageComponent}
     ]
   },
   {path: 'admin',
