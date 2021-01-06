@@ -13,7 +13,7 @@ import {switchMap} from 'rxjs/operators';
 })
 export class PostPageComponent implements OnInit {
 
-  post$: Observable<Post>
+  post$: Observable<Post>;
 
   constructor(private route: ActivatedRoute,
               private postsService: PostsService) { }
