@@ -1,5 +1,5 @@
 # AngularBlog
- <font size="6"> This is my text number 6</font>
+ <font size="116"> This is my text number 6</font>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
