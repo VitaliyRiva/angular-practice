@@ -1,6 +1,6 @@
 # AngularBlog
 
-<font size="+1">Description</font>
+<font size="+33">Description</font>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
